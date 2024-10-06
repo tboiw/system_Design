@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  font-family: "微软雅黑";
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.main {
+  float: left;
+  width: 900px;
+  margin-left: 40px;
+}
+
+.main h1 {
+  font-size: 36px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.main .textinfo {
+  margin: 15px 0 30px 0;
+  font-size: 12px;
+  color: #888;
+  border-bottom: 1px solid #ccc;
+}
+
+.main .textinfo a {
+  color: #888;
+}
+
+.main .textinfo a:hover {
+  color: #a00;
+}
+
+.main .textinfo span {
+  margin-right: 30px;
+}
+
+.main .content {
+  font-size: 18px;
+  float: right;
+  line-height: 2em;
+  color: #333;
+  text-indent: 2em;
+  width: 700px;
+  padding-top: 30px;
+}
+
+.main .main-img {
+  text-align: center;
+  text-indent: 0;
+  margin: 15px;
+}
+
+.share {
+  float: left;
+  width: 150px;
+  height: auto;
+  background: #fff;
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.share.show {
+  top: 0;
+  width: 150px;
+  height: auto;
+  margin: 30px 0;
+  position: fixed;
+}
+
+.share .share-img {
+  height: 50px;
+  width: 50px;
+}
+
+.share a {
+  height: 70px;
+  margin: 15px 0;
+  width: 70px;
+  border: 3.5px solid #333;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-self: center;
+}
+
+.share a:hover {
+  height: 70px;
+  margin: 15px 0;
+  width: 70px;
+  border: 3.5px solid #ccc;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+.recommend {
+  margin-top: 50px;
+  float: right;
+  width: 380px;
+  height: auto;
+  background: #fff;
+  margin-right: 10px;
+
+}
+
+.recommend .recommend-item {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.recommend a {
+  color: #333;
+}
+
+.recommend a:hover {
+  color: #a00;
+}
+
+.recommend h3 {
+  margin: 5px 0;
+  font-size: 25px;
+  color: #686868;
+}
